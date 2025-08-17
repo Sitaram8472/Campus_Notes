@@ -40,7 +40,7 @@ From **1st year to final year**, students can browse **notes, previous year ques
 ---
 
 ## 📸 Project Preview
-![CampusNotes Preview](./assets/ProjectImg.png)
+![CampusNotes Preview](./src/assets/ProjectImg.png)
 
 
 ---
@@ -48,7 +48,7 @@ From **1st year to final year**, students can browse **notes, previous year ques
 ## ⚡ Getting Started
 ```bash
 # Clone repo
-git clone https://github.com/your-username/campusnotes.git
+git clone https://github.com/Sitaram8472/Campus_Notes
 cd campusnotes
 
 # Install dependencies
