@@ -100,6 +100,21 @@ git push origin feature-or-fix-name
 
 - Submit the PR — we’ll review it as soon as possible.
 
+
+## After Your PR is Merged
+
+Once your Pull Request is successfully merged, your efforts will be recognized as part of the **GirlScript Summer of Code (GSSOC)** program.  
+Each PR is reviewed and assigned a **level label** that reflects its complexity and impact:
+
+- **Level 1:** 3 Points — for small changes like fixing typos, minor bugs, or improving documentation.  
+- **Level 2:** 5 Points *(may vary)* — for moderate contributions such as adding new features or improving existing ones.  
+- **Level 3:** 10 Points — for major enhancements, architecture-level changes, or high-impact fixes.  
+
+These points are **officially recorded on the GSSOC Contributor Leaderboard**, showcasing your contributions to the open-source community.  
+Your name and total score will appear on the official website, helping you gain **recognition among peers, mentors, and potential recruiters**.  
+
+**Contributing is not just about earning points — it’s about learning, collaborating, and leaving a lasting impact on the project!..**
+
 ---
 
 ### Tips for Successful Contributions
