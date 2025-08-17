@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+/* Smooth fonts + scroll */
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  /* Optional overlay color */
+  background-color: #0f083a; /* dark overlay */
+  background-blend-mode: overlay;       /* Blend image and color */
+}

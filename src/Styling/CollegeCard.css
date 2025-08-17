@@ -1,0 +1,7 @@
+.Card_main {
+  transition: all 0.3s ease;
+}
+
+.Card_main:hover {
+  box-shadow: 0 0 20px #231387; 
+}

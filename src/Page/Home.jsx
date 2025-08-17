@@ -1,0 +1,64 @@
+import { useMemo, useState } from "react";
+import Navbar from "../Components/NavBar";
+import Hero from "../Components/Hero";
+import CollegeCard from "../Components/CollegeCard";
+import { colleges as seed } from "../Data/Colleges.js";
+import Footer from "../Components/Footer.jsx";
+
+// jisCollege page
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CollegePage from "../JisCollege/CollegePage.jsx";
+
+export default function Home({ theme, setTheme }) {
+  const [query, setQuery] = useState("");
+  const colleges = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return seed;
+    return seed.filter((c) => c.name.toLowerCase().includes(q));
+  }, [query]);
+
+  return (
+    <>
+      <Navbar theme={theme} setTheme={setTheme} />
+      <Hero />
+      {/* Colleges Section */}
+      <section id="colleges" className="mx-auto max-w-7xl px-4 pb-16">
+        <div className="mb-4 flex items-center justify-between">
+          <h2 className="text-xl font-semibold text-white">Colleges</h2>
+          <span className="text-sm text-slate-300">
+            {colleges.length} shown
+          </span>
+        </div>
+
+        <div className="mb-5">
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Filter colleges..."
+            className="w-full rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-slate-400 outline-none focus:ring-2 focus:ring-indigo-500/50"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+          {colleges.map((c) => (
+            <CollegeCard
+              key={c.id}
+              name={c.name}
+              description={c.description}
+              color={c.color}
+              onClick={() => <CollegePage/>}
+            />
+          ))}
+        </div>
+      </section>
+      <div className="flex flex-col min-h-screen">
+        <main className="flex-grow">{/* Your main content */}</main>
+      </div>
+        
+      <div>
+        <Footer />
+      </div>
+    </>
+  );
+}
