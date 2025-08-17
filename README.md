@@ -39,8 +39,9 @@ From **1st year to final year**, students can browse **notes, previous year ques
 
 ---
 
-## 📸 Screenshots
-(Add here once you have screenshots of your UI)  
+## 📸 Project Preview
+![CampusNotes Preview](./assets/ProjectImg.png)
+
 
 ---
 
