@@ -54,11 +54,11 @@ The app follows a **structured hierarchy** for easy navigation and scalability:
 
 ## ⚡ Getting Started
 ```bash
-# Clone repo
+Clone repo
 git clone https://github.com/Sitaram8472/Campus_Notes
 cd campusnotes
 
-# Install dependencies
+Install dependencies
 npm install
 
 4. **Start the development server**:
@@ -70,6 +70,6 @@ npm install
 
 ---
 
-## 📄 License
+📄 License
 
 This project is open-source and available under the MIT License.
