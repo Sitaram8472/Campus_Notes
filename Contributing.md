@@ -127,7 +127,7 @@ git pull upstream main
 git push origin main
 ```
 - Ask questions: If you’re unsure, open an issue or discussion first.
-
+- Thank you for visting.
 ---
 
 
