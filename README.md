@@ -52,32 +52,14 @@ The app follows a **structured hierarchy** for easy navigation and scalability:
 
 ---
 
-## ⚡ Getting Started (Run Locally)
+## ⚡ Getting Started
+```bash
+# Clone repo
+git clone https://github.com/Sitaram8472/Campus_Notes
+cd campusnotes
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) installed
-- Package manager (e.g., `npm`)
-
-### Installation
-Follow these steps to set up and run CampusNotes locally:
-
-1. **Clone the repository**:
-    ```bash
-    git clone <repolink>
-    ```
-
-2. **Install dependencies**:
-
-    Note: If you face permission or execution policy errors while running this on VS Code PowerShell, try using Command Prompt (cmd) instead:\
-    ->Navigate to your project folder:   
-    ```bash
-    cd <folder path>
-    ```
-    ->install dependencies
-    ```bash
-    npm install
-    ```
+# Install dependencies
+npm install
 
 4. **Start the development server**:
     ```bash
