@@ -52,14 +52,40 @@ The app follows a **structured hierarchy** for easy navigation and scalability:
 
 ---
 
-## ⚡ Getting Started
-```bash
-Clone repo
-git clone https://github.com/Sitaram8472/Campus_Notes
-cd campusnotes
+## 🚀 Local Setup for Developers
 
-Install dependencies
-npm install
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed
+- Package manager (e.g., `npm`)
+
+### Installation
+
+Follow these steps to set up and run CampusNotes locally:
+
+ 1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/your-username/CampusNotes.git
+    cd CampusNotes
+    ```
+ 2. **Install dependencies**
+
+    We recommend using Command Prompt on Windows (instead of VS Code PowerShell if you face issues) and Terminal on macOS/Linux.
+
+  
+      - Open Command Prompt (cmd):
+     
+          • Press Win + R, type cmd, press **Enter**.
+     
+      - Navigate to the project folder:
+         ```bash
+             cd <path\to\Campus_Notes>
+         ```
+  
+      - Install dependencies:
+         ```bash
+             npm install
+         ```
 
 4. **Start the development server**:
     ```bash

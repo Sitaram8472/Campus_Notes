@@ -1,101 +1,134 @@
-# 📚 CampusNotes – College Resource Hub
+# Contributing to CampusNotes
 
-CampusNotes is a **React + Tailwind CSS** web application designed to help students access **exam resources** from any college in India — including **notes, previous year question papers, syllabus, and PDFs** — in one centralized hub.
-
-The app follows a **structured hierarchy** for easy navigation and scalability:  
-**College → Department → Subject → Resources**
+Thank you for considering contributing to **CampusNotes**! 🎉  
+This document will guide you through the process of setting up your environment, making changes, and submitting a pull request.
 
 ---
 
-## 🚀 Features
+## Project Overview
 
-- 🏫 **Multi-College Support** – Add and browse resources from any college  
-- 🏬 **Department-wise Navigation** – IT, CSE, ECE, Mechanical, Civil, etc.  
-- 📚 **Subject Organization** – Semester and year-based categorization  
-- 📂 **Exam Resources** – Notes, Previous Year Papers, Assignments, Syllabus (all PDFs)  
-- 🔍 **Search & Filter** – Find resources across colleges, departments, or subjects  
-- 🌙 **Dark Mode** – Sleek, modern interface with theme toggle  
-- 📖 **PDF Preview & Download** – Open or download resources instantly  
-- ⚡ **Frontend-Only Architecture** – Runs on any free static hosting like Netlify or Vercel  
+CampusNotes is an open-source platform designed to help students **share, organize, and access notes efficiently**.  
+We welcome contributions of all kinds:  
+- 🐞 **Bug fixes**  
+- 🌟 **New features**  
+- 📖 **Documentation improvements**  
+- 💡 **Suggestions and feedback**  
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React.js, Tailwind CSS  
-- **Icons:** Lucide React  
-- **Routing:** React Router (planned for navigation)  
-- **Optional Future Backend:** Node.js, Express.js, MongoDB (for dynamic content)  
+Whether you're new to open source or an experienced developer, you can make a difference here.
 
 ---
 
-## 🎯 Example User Flow
+## How to Contribute
 
-1. **Select College** → e.g. *JIS College of Engineering*  
-2. **Choose Department** → e.g. *IT Department*  
-3. **Pick Subject/Semester** → e.g. *Data Structures – Semester 3*  
-4. **Access Resources** → *Notes, Question Papers, PDFs*  
+Follow these steps to contribute to CampusNotes on **Windows, macOS, or Linux**.
 
 ---
 
-## 🏆 Resume Highlights
-
-- Built a **scalable frontend architecture** for multi-level navigation  
-- Implemented **dark mode, search, and PDF preview** features  
-- Designed a **pan-India college resource hub** focused on **exam preparation**  
-- Structured for **open-source collaboration** — easy to add new colleges and resources  
-
----
-
-## 📸 Project Preview
-![CampusNotes Preview](./src/assets/ProjectImg.png)
-
----
-
-## 🚀 Local Setup for Developers
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) installed
-- Package manager (e.g., `npm`)
-
-### Installation
-
-Follow these steps to set up and run CampusNotes locally:
-
- 1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/your-username/CampusNotes.git
-    cd CampusNotes
-    ```
- 2. **Install dependencies**
-
-    We recommend using Command Prompt on Windows (instead of VS Code PowerShell if you face issues) and Terminal on macOS/Linux.
-
+### 1. Fork and Clone the Repository
+1. Click the **Fork** button at the top-right of this repository on GitHub.  
+2. Clone your fork locally:  
+   ```bash
+   git clone https://github.com/your-username/Campus_Notes.git
+   cd CampusNotes
+### 2. Install Dependencies
+  We recommend using Command Prompt on Windows (instead of VS Code PowerShell if you face issues) and Terminal on macOS/Linux.
   
-      - Open Command Prompt (cmd):
-     
-          • Press Win + R, type cmd, press **Enter**.
-     
-      - Navigate to the project folder:
-         ```bash
-             cd <path\to\Campus_Notes>
-         ```
+  **Windows**
   
-      - Install dependencies:
-         ```bash
-             npm install
-         ```
+  1. Open Command Prompt (cmd):
+     
+      • Press Win + R, type cmd, press **Enter`.
+     
+  2. Navigate to the project folder:
+     ```bash
+     cd <path\to\Campus_Notes>
+     ```
+  
+  3. Install dependencies:
+     ```bash
+     npm install
+     ```
+   **macOS / Linux**
+  
+   1. Open Terminal (Cmd+Space → type "Terminal" on macOS, or Ctrl+Alt+T on Linux).
+  
+   2. Navigate to the project folder:
+      ```bash
+      cd <path\to\CampusNotes>
+      ```
+  
+   3. Install dependencies:
+      ```bash
+      npm install
+      ```
+### 3. Create a New Branch
+  Always work on a new branch instead of making changes directly on main:
+  ```bash
+     git checkout -b mybranch
+  ```
 
-4. **Start the development server**:
-    ```bash
-    npm run dev
-    ```
+### 4. Make Your Changes
+- Follow the existing code style and conventions.
 
-5. Open [http://localhost:5173](http://localhost:5173) in your browser to see Campus_Notes in action.
+- Keep commits small and meaningful.
+
+- If you add a feature, update documentation if needed.
+
+### 5. Test Your Changes
+
+Before pushing changes, test the app locally:
+```bash
+  npm run dev
+```
+Verify that your changes work as expected.
+
+### 6. Commit and Push
+
+Commit your work with a descriptive message:
+```bash
+git add .
+git commit -m "Describe your changes clearly"
+git push origin feature-or-fix-name
+```
+
+### 7. Open a Pull Request (PR)
+- Go to your fork on GitHub.
+
+- Click Compare & pull request.
+
+- Add a clear title and description for your PR.
+
+- Submit the PR — we’ll review it as soon as possible.
+
+
+## After Your PR is Merged
+
+Once your Pull Request is successfully merged, your efforts will be recognized as part of the **GirlScript Summer of Code (GSSOC)** program.  
+Each PR is reviewed and assigned a **level label** that reflects its complexity and impact:
+
+- **Level 1:** 3 Points — for small changes like fixing typos, minor bugs, or improving documentation.  
+- **Level 2:** 7 Points *(may vary)* — for moderate contributions such as adding new features or improving existing ones.  
+- **Level 3:** 10 Points — for major enhancements, architecture-level changes, or high-impact fixes.  
+
+These points are **officially recorded on the GSSOC Contributor Leaderboard**, showcasing your contributions to the open-source community.  
+Your name and total score will appear on the official website, helping you gain **recognition among peers, mentors, and potential recruiters**.  
+
+**Contributing is not just about earning points — it’s about learning, collaborating, and leaving a lasting impact on the project!..**
 
 ---
 
-📄 License
+### Tips for Successful Contributions
+- Keep PRs focused: Avoid mixing unrelated changes.
 
-This project is open-source and available under the MIT License.
+- Sync with upstream: Before starting work, always update your fork:
+```bash
+git checkout main
+git pull upstream main
+git push origin main
+```
+- Ask questions: If you’re unsure, open an issue or discussion first.
+
+---
+
+
+**Thanks again for contributing! 🙌 Your help makes CampusNotes better for everyone**.
