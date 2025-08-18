@@ -107,7 +107,7 @@ Once your Pull Request is successfully merged, your efforts will be recognized a
 Each PR is reviewed and assigned a **level label** that reflects its complexity and impact:
 
 - **Level 1:** 3 Points — for small changes like fixing typos, minor bugs, or improving documentation.  
-- **Level 2:** 5 Points *(may vary)* — for moderate contributions such as adding new features or improving existing ones.  
+- **Level 2:** 7 Points *(may vary)* — for moderate contributions such as adding new features or improving existing ones.  
 - **Level 3:** 10 Points — for major enhancements, architecture-level changes, or high-impact fixes.  
 
 These points are **officially recorded on the GSSOC Contributor Leaderboard**, showcasing your contributions to the open-source community.  
