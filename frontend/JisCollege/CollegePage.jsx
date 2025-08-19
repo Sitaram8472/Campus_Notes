@@ -1,5 +1,5 @@
 import DeptSec from "./DeptSec.jsx";
-import { Deptdata } from "./Deptdata";
+import { Deptdata } from "./Deptdata.js";
 
 export default function CollegePage() {
   return (

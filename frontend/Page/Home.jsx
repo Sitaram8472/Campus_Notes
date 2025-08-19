@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
-import Navbar from "../Components/NavBar";
-import Hero from "../Components/Hero";
-import CollegeCard from "../Components/CollegeCard";
+import Navbar from "../Components/NavBar.jsx";
+import Hero from "../Components/Hero.jsx";
+import CollegeCard from "../Components/CollegeCard.jsx";
 import { colleges as seed } from "../Data/Colleges.js";
 import Footer from "../Components/Footer.jsx";
 
