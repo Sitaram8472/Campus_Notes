@@ -5,11 +5,11 @@ export default function DeptSec({ id, departments, description }) {
 
   return (
     <button
-      onClick={() => navigate(`/jiscollege/dept/${id}`)}
+      onClick={() => navigate(`/college/${id}`)}
       className="group w-full rounded-3xl border border-white/10 p-5 text-left shadow-lg hover:bg-white/10"
     >
-      <h2 className="text-lg font-semibold text-white">{departments}</h2>
-      <p className="text-sm text-slate-300">{description}</p>
+      <h2>{departments}</h2>
+      <p>{description}</p>
     </button>
   );
 }

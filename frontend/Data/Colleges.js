@@ -6,17 +6,12 @@ export const colleges = [
     color: 'bg-violet-500'
   },
   {
-    id: 'iiit',
-    name: 'IIIT Kalyani',
-    description: 'Explore departments, subjects, and resources',
-    color: 'bg-green-500'
-  },
-  {
-    id: 'nit',
+    id: 'narula',
     name: 'Narula Institite of Technology',
     description: 'Explore departments, subjects, and resources',
     color: 'bg-blue-500',
   },
+  
    {
     id: 'gnit',
     name: 'GuruNanak Institite of Technology',
